@@ -1,5 +1,5 @@
 #gradient descent algorithm finds best fit line for training data 
-
+#can include a relative tolerance value for what the cost function should be (i.e. to stop, such as 1E-9), not included below
 import numpy as np
 
 def gradient_descent(x,y):
